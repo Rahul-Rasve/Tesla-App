@@ -1,10 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 import CarsList from "./components/CarsList";
+import HeaderSection from "./components/HeaderSection";
 
 export default function App() {
 	return (
 		<View style={styles.container}>
+      <HeaderSection />
+      
       <CarsList />
 
 			<StatusBar style="auto" />
