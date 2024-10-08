@@ -29,6 +29,19 @@ const styles = StyleSheet.create({
 		color: "#5c5e62",
 		marginTop: 5,
 	},
+
+    subtitleCTA: {
+        fontSize: 16,
+        color: "black",
+        marginTop: 5,
+        textDecorationLine: "underline",
+    },
+
+    buttonContainer: {
+        position: "absolute",
+        bottom: 50,
+        width: "100%",
+    },
 });
 
 export default styles;
