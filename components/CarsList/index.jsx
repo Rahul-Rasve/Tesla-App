@@ -1,6 +1,5 @@
-import { View, Text, FlatList, Dimensions } from "react-native";
+import { View, Text, FlatList, Dimensions, StyleSheet } from "react-native";
 import React from "react";
-import styles from "./styles";
 import cars from "../../data/cars";
 import CarItem from "../CarComponent";
 
@@ -19,5 +18,11 @@ const CarsList = () => {
 		</View>
 	);
 };
+
+const styles = StyleSheet.create({
+    container: {
+        width: "100%",
+    },
+});
 
 export default CarsList;
